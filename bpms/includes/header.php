@@ -27,6 +27,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contact.php">Contact</a>
                     </li>
+
+                    
                      
                      <?php if (strlen($_SESSION['bpmsuid']==0)) {?>
                     <li class="nav-item">
@@ -38,6 +40,12 @@
                     <li class="nav-item">
                         <a class="nav-link" href="login.php">Login</a>
                     </li><?php }?>
+
+                        <!-- home service -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="Home_Booking.php">Home Service</a>
+                    </li>
+
                     <?php if (strlen($_SESSION['bpmsuid']>0)) {?>
                     <li class="nav-item">
                         <a class="nav-link" href="book-appointment.php">Book Salon</a>
