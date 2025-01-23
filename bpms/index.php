@@ -34,7 +34,7 @@ $(function () {
 </script>
 <!-- disable body scroll which navbar is in active -->
 
-<!-- <div class="w3l-hero-headers-9">
+ <div class="w3l-hero-headers-9">
   <div class="css-slider">
     <input id="slide-1" type="radio" name="slides" checked>
     <section class="slide slide-one">
@@ -69,7 +69,7 @@ $(function () {
       <label for="slide-2" id="slide-2"></label>
     </header>
   </div>
-</div>  -->
+</div> 
 <div>
   <img src="myimage/image1.jpg" alt="">
 </div>
