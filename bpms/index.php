@@ -131,7 +131,7 @@ $(function () {
                         <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">Advance Hair Color</a></li>
                     </ul>
                 </div>
-                    <!-- <div  class="image-right">
+                    <div  class="image-right">
                         <ul class="w3l-right-book">
                             <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">Back Massage</a></li>
                             <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">Hair Treatment</a></li>
@@ -139,7 +139,7 @@ $(function () {
                             <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">Skin Care</a></li>
                             <li><span class="fa fa-check" aria-hidden="true"></span><a href="about.html">Body Therapies</a></li>
                         </ul>
-                </div> -->
+                </div>
             </div>
         </div>
 </section>
