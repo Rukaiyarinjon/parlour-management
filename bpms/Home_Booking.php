@@ -22,7 +22,7 @@ if (isset($_POST['submitBtn'])) {
     
 
     // Prepare the SQL query to prevent SQL injection
-    $query = $con->prepare("INSERT INTO homeservicebookings (customer_id, service_id, address, date, time, payment_status, booking_status) VALUES (?, ?, ?, ?, ?, ?, ?)");
+    $query = $con->prepare("INSERT INTO home_service (customer_id, service_id, address, date, time, payment_status, booking_status) VALUES (?, ?, ?, ?, ?, ?, ?)");
     $booking_status = 'pending';  // Default booking status
     
     // Bind the parameters and execute the query
